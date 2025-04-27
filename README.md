@@ -8,7 +8,7 @@ This paper focuses on handling missing data in multivariate time series forecast
 </p>
 
 ## Overall Architecture
-The architecture of TimeRouter is as follows: An L-layer single-stream encoder encodes variables into tokens and dynamically fuses features in the Hierarchical Dynamic Fusion Space (HDFS, shown by the orange dashed box). In HDFS, expert processing units (u0, u1, u2) are fully connected across layers and embed a dynamic router mechanism to generate a weight matrix.
+The architecture of TimeRouter is as follows: An L-layer single-stream tower, which encodes variables into tokens and dynamically fuses features in the Hierarchical Dynamic Fusion Space (HDFS, shown by the orange dashed box). In HDFS, expert processing units (u0, u1, u2) are fully connected across layers and embed a dynamic router mechanism to generate a weight matrix.
 <p align="center">
 <img src=".\figures\TimeRouter.png" width = "800" height = "" alt="" align=center />
 </p>
